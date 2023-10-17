@@ -1,6 +1,6 @@
-import java.util.*;                                                        //NAME: AMLAN ANSHUMAN NAYAK
-public class Main {                                                       //REGISTRATION NUMBER: 2341014053
-    public static void towerofHanoi(int n,int f,int m,int l) {           //PROBLEM STATEMENT LINK:https://cses.fi/problemset/task/2165
+import java.util.*;                                                     //NAME: AMLAN ANSHUMAN NAYAK
+public class Main {                                                     //REGISTRATION NUMBER: 2341014053
+    public static void towerofHanoi(int n,int f,int m,int l) {          //PROBLEM STATEMENT LINK:https://cses.fi/problemset/task/2165
         if(n==1) {
             System.out.println(f + " " + l);
             return;
